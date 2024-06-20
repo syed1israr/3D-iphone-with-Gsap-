@@ -29,7 +29,7 @@ const Hero = () => {
       <div className='h-5/6 w-full flex-center flex-col'>
       <p  id='Hero' className='hero-title'>iPhone 15 Pro</p>
       <div className='md:w-10/12 w-9/12'>
-        <video autoPlay muted playsInline={true} key={VideoSrc}>
+        <video autoPlay muted playsInline={true} loop key={VideoSrc}>
           <source src={VideoSrc} type='video/mp4'/>
         </video>
       </div>
